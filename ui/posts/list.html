@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post Detail</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="min-h-screen bg-slate-50 text-slate-900">
+    <main class="mx-auto max-w-xl p-6">
+
+      <!--for loop through each post, display: -->
+      <article class="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
+        <div class="flex flex-col gap-4">
+          <div class="flex items-center justify-between gap-4">
+            <div>
+              <p class="text-sm text-slate-500">Posted <time datetime="2026-04-11">April 11, 2026</time></p>
+              <p class="text-sm text-slate-500">by <span class="font-semibold text-slate-900">Author Name</span></p>
+            </div>
+            <a href="PLACEHOLDER_EDIT_URL" class="text-sm text-sky-600 hover:text-sky-700">Edit</a>
+          </div>
+
+          <div class="space-y-3">
+            <h1 class="text-2xl font-semibold text-slate-900">Post title or headline</h1>
+            <div class="overflow-hidden rounded-3xl bg-slate-100">
+              <img src="PLACEHOLDER_IMAGE_URL" alt="Post image" class="h-72 w-full object-cover" />
+            </div>
+          </div>
+
+          <div class="space-y-4 text-slate-700">
+            <p>Here is the post content. This text describes the post and provides details for readers. Replace this with the actual post body.</p>
+          </div>
+
+          <div class="mt-4 flex flex-wrap items-center gap-4 border-t border-slate-200 pt-4 text-sm text-slate-500">
+            <span class="inline-flex items-center gap-2">
+              <span class="font-semibold text-slate-900">128</span>
+              likes
+            </span>
+            <span class="inline-flex items-center gap-2">
+              <span class="font-semibold text-slate-900">24</span>
+              comments
+            </span>
+          </div>
+        </div>
+      </article>
+
+
+    </main>
+  </body>
+</html>
